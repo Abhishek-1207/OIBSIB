@@ -8,7 +8,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .app-title{
-    color: #000aff;
+    color: #48f23c;
 }
 .form-container{
     width: 300px;
@@ -27,7 +27,8 @@ body{
     font-size: 15px;
     outline: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: blue;
+    color: #48f23c;
+    /* color: blue; */
     font-weight: 500;
     border-radius: 5px;
     border: 1px solid #00000018;
@@ -55,10 +56,10 @@ body{
     border-radius: 5px;
 }
 #addBtn,#updateBtn{
-    background-color: #000aff;
+    background-color:#48f23c;
 }
 #addBtn:hover,#updateBtn:hover{
-    background-color: #0108c3;
+    background-color: #2ccd21;
     cursor: pointer;
 }
 #cancelBtn{
@@ -79,9 +80,9 @@ body{
     padding: 5px 15px;
     background-color: white;
     outline: none;
-    border: 1px solid #000aff;
+    border: 1px solid #48f23c;
     border-radius: 15px;
-    color: #000aff;
+    color: #48f23c;
     cursor: pointer;
 }
 #tasks-container{
@@ -117,7 +118,7 @@ body{
 .status,.time{
     margin: 7px 5px;
     font-size: 12px;
-    color:#000aff;
+    color:#48f23c;
     font-weight: 500;
 }
 .status>span,.time>span{
@@ -132,7 +133,7 @@ body{
     margin: 10px;
 }
 .taskBtn-container>button{
-    background-color: #000aff;
+    background-color: #48f23c;
     outline: none;
     border: none;
     color:white;
@@ -147,6 +148,6 @@ body{
     background-color: red;
 }
 .active-filter{
-    background-color: #000aff !important;
+    background-color: #48f23c !important;
     color:#fff !important;
 }

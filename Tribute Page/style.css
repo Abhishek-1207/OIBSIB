@@ -11,7 +11,7 @@ body {
 .first-section {
     width: 100%;
     height: 100vh;
-    background-image: url(./bg-img.jpg);
+    background-image: url(BG1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -26,7 +26,7 @@ body {
     height: 100%;
     position: absolute;
     top:0;
-    background:linear-gradient(to top,#0059ffdb,#ffffff00);
+    background:linear-gradient(to top,#fff700db,#ffffff00);
 }
 .first-section>h1 {
     font-size: 70px;
@@ -59,15 +59,15 @@ body {
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     position: relative;
-    border-right: 10px solid orange;
-    border-bottom: 10px solid #355dff;
+    border-right: 10px solid rgb(255, 165, 0);
+    border-bottom: 10px solid #e9e02f;
 }
 .about>div{
     width: 60%;
 }
 .about>div>h1{
     font-family: 'Roboto Slab', serif;
-    color: #355dff;
+    color: #e9e02f;
     border-bottom: 3px solid orange;
     width: 130px;
 }
@@ -79,7 +79,7 @@ body {
 }
 .about>div>p::first-letter{
     font-size: 25px;
-    color: #355dff;
+    color: #e9e02f;
     font-weight: 700;
 }
 .award-section{
@@ -88,7 +88,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #355dff;
+    background-color: #e9e02f;
     padding: 20px 0px;
 }
 .award-section>h1,.award-section>h2{
@@ -138,7 +138,7 @@ body {
     font-family: 'Kavivanar', cursive;
 }
 .qoute-section>h2{
-    color: #355dff;
+    color: #e9e02f;
     margin: 0;
 }
 .qoute-section>p{
@@ -152,7 +152,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 20px 0px;
-    background-color: #355dff;
+    background-color: #e9e02f;
     color: white;
 }
 .playlist-section>h1{
@@ -167,17 +167,17 @@ footer{
     align-items: center;
     flex-direction: column;
     background-color: white;
-    border-bottom: 20px solid orange;
+    border-bottom: 20px solid #e9e02f;
 }
 footer>h2{
     font-family: 'Roboto Slab', serif;
-    color: #355dff;
+    color: #e9e02f;
 }
 footer>a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     font-weight: 700;
-    color: #355dff;
+    color: #e9e02f ;
     text-decoration: none;
 }
 @media screen and (max-width:768px) {
